@@ -3,6 +3,7 @@
 # and obtained from the dandiarchive.
 '@context': 
   https://raw.githubusercontent.com/dandi/schema/master/releases/0.7.0/context.json
+about: []
 access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
@@ -10,21 +11,99 @@ assetsSummary:
   numberOfBytes: 0
   numberOfFiles: 0
   schemaKey: AssetsSummary
-citation: FOUSTOUKOS, GEORGIOS (2026) Retrosplenial cortex enables context-dependent
+citation: Bech Pol; Dard Robin ; Lebert Jules  ; Smith Lana ; Bisi Axel ; Renard Anthony
+  ; Crochet Sylvain ; Petersen Carl   (2026) Retrosplenial cortex enables context-dependent
   goal-directed sensorimotor transformation (Version draft) [Data set]. DANDI Archive.
   https://dandiarchive.org/dandiset/001847/draft
 contributor:
-- affiliation: []
-  email: foustgeorge@gmail.com
+- affiliation:
+  - identifier: https://ror.org/02s376052
+    name: École Polytechnique Fédérale de Lausanne, Lausanne, Switzerland
+    schemaKey: Affiliation
+  email: pol.bech@epfl.ch
   includeInCitation: true
-  name: FOUSTOUKOS, GEORGIOS
+  name: Bech Pol
   roleName:
+  - dcite:DataCollector
+  - dcite:Author
+  schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/02s376052
+    name: École Polytechnique Fédérale de Lausanne, Lausanne, Switzerland
+    schemaKey: Affiliation
+  email: robin.dard@epfl.ch
+  includeInCitation: true
+  name: 'Dard Robin '
+  roleName:
+  - dcite:DataCollector
+  - dcite:Author
+  schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/02s376052
+    name: École Polytechnique Fédérale de Lausanne, Lausanne, Switzerland
+    schemaKey: Affiliation
+  email: jules.lebert@epfl.ch
+  includeInCitation: true
+  name: 'Lebert Jules  '
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/02s376052
+    name: École Polytechnique Fédérale de Lausanne, Lausanne, Switzerland
+    schemaKey: Affiliation
+  email: lana.smith@epfl.ch
+  includeInCitation: true
+  name: 'Smith Lana '
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/02s376052
+    name: École Polytechnique Fédérale de Lausanne, Lausanne, Switzerland
+    schemaKey: Affiliation
+  email: axel.bisi@epfl.ch
+  includeInCitation: true
+  name: 'Bisi Axel '
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/02s376052
+    name: École Polytechnique Fédérale de Lausanne, Lausanne, Switzerland
+    schemaKey: Affiliation
+  email: anthony.renard@epfl.ch
+  includeInCitation: true
+  name: 'Renard Anthony '
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/02s376052
+    name: École Polytechnique Fédérale de Lausanne, Lausanne, Switzerland
+    schemaKey: Affiliation
+  email: sylvain.crochet@epfl.ch
+  includeInCitation: true
+  name: 'Crochet Sylvain '
+  roleName:
+  - dcite:ProjectLeader
+  schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/02s376052
+    name: École Polytechnique Fédérale de Lausanne, Lausanne, Switzerland
+    schemaKey: Affiliation
+  email: carl.petersen@epfl.ch
+  includeInCitation: true
+  name: 'Petersen Carl  '
+  roleName:
+  - dcite:ProjectLeader
   - dcite:ContactPerson
   schemaKey: Person
 dateCreated: '2026-05-19T07:14:23.014389+00:00'
 description: "Dataset related to the publication:\n\nRetrosplenial cortex enables
   context-dependent goal-directed sensorimotor transformation\n\nBech, Dard et al.
   , eLife 2026, https://doi.org/10.7554/eLife.109717.1\n"
+ethicsApproval: []
 id: DANDI:001847/draft
 identifier: DANDI:001847
 license:
@@ -32,8 +111,10 @@ license:
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/001847/versions/draft/assets/
 name: Retrosplenial cortex enables context-dependent goal-directed sensorimotor transformation
+relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.7.0
 url: https://dandiarchive.org/dandiset/001847/draft
 version: draft
+wasGeneratedBy: []
