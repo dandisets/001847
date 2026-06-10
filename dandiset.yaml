@@ -45,8 +45,8 @@ assetsSummary:
   - ImagingPlane
 citation: Bech, Pol; Dard, Robin ; Lebert, Jules  ; Smith, Lana ; Bisi, Axel ; Renard,
   Anthony ; Crochet, Sylvain ; Petersen, Carl   (2026) Retrosplenial cortex enables
-  context-dependent goal-directed sensorimotor transformation (Version draft) [Data
-  set]. DANDI Archive. https://dandiarchive.org/dandiset/001847/draft
+  context-dependent goal-directed sensorimotor transformation (Version 0.260610.1400)
+  [Data set]. DANDI Archive. https://doi.org/10.48324/dandi.001847/0.260610.1400
 contributor:
 - affiliation:
   - identifier: https://ror.org/02s376052
@@ -153,21 +153,35 @@ contributor:
   schemaKey: Organization
   url: https://www.snf.ch/en
 dateCreated: '2026-05-19T07:14:23.014389+00:00'
+datePublished: '2026-06-10T14:00:20.773663+00:00'
 description: 'Dataset related to the publication: Bech, Dard et al., eLife 2026, https://doi.org/10.7554/eLife.109717.
   Processed data and code are available via Zenodo: https://doi.org/10.5281/zenodo.17424306
   and GitHub: https://github.com/LSENS-BMI-EPFL/Bech_Dard_process_NWB, https://github.com/LSENS-BMI-EPFL/Bech_Dard_plot_figures.'
+doi: 10.48324/dandi.001847/0.260610.1400
 ethicsApproval: []
-id: DANDI:001847/draft
+id: DANDI:001847/0.260610.1400
 identifier: DANDI:001847
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
-- https://api.dandiarchive.org/api/dandisets/001847/versions/draft/assets/
+- https://dandiarchive.s3.amazonaws.com/dandisets/001847/0.260610.1400/assets.yaml
 name: Retrosplenial cortex enables context-dependent goal-directed sensorimotor transformation
+publishedBy:
+  endDate: '2026-06-10T14:00:20.773663+00:00'
+  id: urn:uuid:e86802bf-2da0-4089-825a-61a805462909
+  name: DANDI publish
+  schemaKey: PublishActivity
+  startDate: '2026-06-10T14:00:20.773663+00:00'
+  wasAssociatedWith:
+  - id: urn:uuid:f08a1e7d-7b12-48ae-ba14-643d5320f87b
+    identifier: RRID:SCR_017571
+    name: DANDI API
+    schemaKey: Software
+    version: 0.1.0
 relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.7.0
-url: https://dandiarchive.org/dandiset/001847/draft
-version: draft
+url: https://dandiarchive.org/dandiset/001847/0.260610.1400
+version: 0.260610.1400
 wasGeneratedBy: []
